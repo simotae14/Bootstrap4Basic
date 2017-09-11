@@ -8,18 +8,18 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="public/css/bootstrap/bootstrap.min.css">
-  <!-- Custom style -->
+  <!-- Custom CSS -->
   <link rel="stylesheet" href="dist/css/styles.css">
 </head>
 
 <body>
   <section id="cover">
     <div id="cover-caption">
-      <div class="container">
-        <div class="col-sm-10 col-sm-offset-1">
+      <div class="container justify-content-center">
+        <div class="col-sm-10">
           <h1 class="display-3">Benvenuto in Bootstrap 4</h1>
-          <p>Come il vecchio Bootstrap, ma meglio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In provident blanditiis, a dolorum, sit minus iste nobis vero quas quisquam sed itaque molestiae odit.</p>
-          <form action="" class="form-inline">
+          <p>Come il vecchio Bootstrap, ma migliore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione fugiat fugit, dolores vel aperiam, assumenda minima iure soluta ipsum quas mollitia voluptatibus officiis distinctio suscipit autem perspiciatis, culpa alias illum.</p>
+          <form action="" class="form-inline justify-content-center">
             <div class="form-group">
               <label class="sr-only">Nome</label>
               <input type="text" class="form-control form-control-lg" placeholder="Jane Doe">
@@ -28,7 +28,7 @@
               <label class="sr-only">Email</label>
               <input type="text" class="form-control form-control-lg" placeholder="jane.doe@example.com">
             </div>
-            <button type="submit" class="btn-success btn-lg">okay, vai!</button>
+            <button type="submit" class="btn btn-success btn-lg">okay, vai!</button>
           </form>
           <br>
           <a href="#nav-main" class="btn btn-outline-secondary btn-sm" role="button">&darr;</a>
@@ -36,8 +36,10 @@
       </div>
     </div>
   </section>
+  
+  <!-- navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-main">
-    <a class="navbar-brand" href="#">Tuo Logo</a>
+    <a class="navbar-brand" href="#">Logo</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -59,69 +61,8 @@
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
-  </nav>
-  <section id="carousel">
-    <div id="carousel-home" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-home" data-slide-to="1"></li>
-        <li data-target="#carousel-home" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="dist/images/woman-camera.jpg" alt="Una Donna fa una foto con una macchina fotografica">
-          <div class="carousel-caption">
-            <h3>Una donna con una macchina fotografica</h3>
-            <p>Probabilmente sta facendo una foto</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="dist/images/spiderweb.jpg" alt="Una ragnatela bagnata">
-          <div class="carousel-caption">
-            <h3>Scende la pioggia</h3>
-            <p>E bagna la ragnatela</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="dist/images/hearthand.jpg" alt="Due mani creano un cuore">
-          <div class="carousel-caption">
-            <h3>Creano amore</h3>
-            <p>Con le loro mani...</p>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carousel-home" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Precedente</span>
-      </a>
-      <a class="carousel-control-next" href="#carousel-home" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Successiva</span>
-      </a>
-    </div>
-  </section>
+  </nav>  
   
-  <section id="what-we-do">
-    <div class="section-content">
-      <div class="container">
-        <h2>Cosa facciamo</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti veniam suscipit, maiores. Exercitationem quae ut, odio non adipisci quibusdam tenetur voluptatum corrupti, numquam excepturi, ex temporibus iure deleniti ullam itaque.</p>
-      </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="card-group">
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">Stategia &amp; Pianificazione</h4>
-                <h6 class="card-subtitle">Sottotilo a supporto della Card</h6>
-                <img src="dist/images/chalkboard.jpg" alt="Una lavagna">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
   <!-- Optional JavaScript -->
   <script src="public/js/jquery/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
